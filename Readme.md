@@ -10,3 +10,4 @@ To use express you need to have node.js installed.
 - once the modules are generated make an index.js file and ***require("express")***, store in var for easy access
 - pro tip: use ***console.dir()*** and run your app using ***node index.js*** to see all properties/methods of the express object.
 
+- call ***.listen*** method on app to start listening for requests and navigate to localhost:portnumber. You should see a cannot GET / if done correctly.
