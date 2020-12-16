@@ -1,8 +1,8 @@
 This is going to be my first express application. 
-Express is a framework based on node.js.
+### Express is a framework based on node.js.
 
-I'm going to document my steps for future reference.
-To use [express](https://expressjs.com/en/4x/api.html) you need to have [node.js](https://nodejs.org/en/) installed.
+
+**To use [express](https://expressjs.com/en/4x/api.html) you need to have [node.js](https://nodejs.org/en/) installed.**
 
 
 - start out by using ***npm init -y*** to generate the package.json
