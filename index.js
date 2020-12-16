@@ -14,7 +14,11 @@ app.get('/kirby', (req,res) =>{
 
 app.get('/search', (req,res) =>{
     const { q } = req.query;
+    if(!q){
+        res.send("Nothing found if nothing searched my friend");
+    }
     res.send(`<h1>Search results for: ${q}`);
+
 
 })
 
