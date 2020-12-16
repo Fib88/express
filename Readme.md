@@ -16,3 +16,6 @@ To use [express](https://expressjs.com/en/4x/api.html) you need to have [node.js
 
 - ***app.get*** couples a route with corresponding code from the ***res.send() method.***
 
+- use the ***req.query method*** to query for specific pages
+- check out [nodemon](https://www.npmjs.com/package/nodemon) for easy node restarts
+

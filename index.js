@@ -12,6 +12,12 @@ app.get('/kirby', (req,res) =>{
     res.send("I see you have found the route to this code, congrats!")
 })
 
+app.get('/search', (req,res) =>{
+    const { q } = req.query;
+    res.send(`<h1>Search results for: ${q}`);
+
+})
+
 
 app.get('/', (req,res) =>{
     res.send("This is supposed to be a homepage but it's blank for now! Yay learning!")
