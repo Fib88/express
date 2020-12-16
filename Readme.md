@@ -13,3 +13,6 @@ To use express you need to have node.js installed.
 - call ***.listen*** method on app to start listening for requests and navigate to localhost:portnumber. You should see a cannot GET / if done correctly.
 
 - use the ***.send*** method to send a request
+
+- ***app.get*** couples a route with corresponding code from the ***res.send() method.***
+
